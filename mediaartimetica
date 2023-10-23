@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+
+int main()
+{
+/*    algoritmo MediaAritmetica;
+// Síntese
+//  Objetivo:  Calcular média aritmética de notas.
+//  Entrada :	3 notas
+//  Saída   :	Mostrar média aritmética das 3 notas.
+
+
+principal
+	// Declarações
+	real nota1;	//CONSTANTE
+	real nota2;	//CONSTANTE
+	real nota3;	//CONSTANTE
+	real media;	
+	// Instruções
+	nota1 = 5.5;
+	nota2 = 7.2;
+	nota3 = 8.3;
+	media = (nota1 + nota2 + nota3) /3;
+	escreval("A média das notas "+nota1+", "+nota2+", "+nota3+ " = "+media);
+fimPrincipal
+*/
+
+      double  nota1 = 5.5;
+      double nota2 = 7.2;
+      double nota3 = 8.3;
+            double  media;
+    
+    media = (nota1 + nota2 + nota3) /3;
+    
+    printf("A média das notas: %.1f,%.1f,%.1f foram = %.1f",nota1, nota2, nota3,media);
+    
+
+    return 0;
+}
